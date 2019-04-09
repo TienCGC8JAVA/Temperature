@@ -3,12 +3,12 @@ function inputCelsius()
     celsius = parseInt(prompt("Nhập vào độ C"));
 }
 
-function celsiusToFahrenheit(fahrenheit)
+function celsiusToFahrenheit()
 {
     return (celsius - 32)/1.8;
 }
 
-function celsiusToKelvin(kelvin)
+function celsiusToKelvin()
 {
     return celsius + 273.15;
 }
